@@ -1,0 +1,294 @@
+/* stylesheet for solanska.eu, M. Solanská 2016 */
+
+body {
+  padding-top: 20px;
+  background-color: #fff;
+  padding-bottom: 0px;
+  font-family: 'ubuntu';
+  color: #000;
+}
+  
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_cele {
+  width: 380px;
+  margin-left: 60px;
+}
+
+.logo_heslo {
+  width: 300px;
+  margin: 25px;
+  margin-left: 100px;
+}
+
+.logo_castka {
+  width: 120px;
+}
+
+h3 {
+  font-family: 'ubuntu_titlingbold';
+  font-size: 26px;
+  color: #464646; 
+  opacity: 0.7;
+}
+
+h4 {
+  font-family: 'ubuntu_titlingbold';
+  font-size: 20px;
+  color: #464646; 
+  opacity: 0.7;
+}
+
+h5 {
+  text-decoration: underline ;
+}
+
+sup {
+  font-size : 60%;
+}
+
+.srdce li {
+  background: url('../img/li_srdce.png') no-repeat left bottom;
+  padding: 30px 0 8px 25px;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.srdce span {
+  padding-left: 40px;
+}
+
+table {
+  width:100%;
+}
+
+table td:first-child {
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+.text-sedy {
+  color: #999999;
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.kapitalky {
+  font-variant: small-caps;
+  }
+
+#url {display: none;}
+
+/* 1 sekce ---------------------------- 1 sekce -- jumbotron */
+  .jumbotron h1 {
+    font-size: 54px;
+  }
+
+  .jumbotron h2 {
+    font-size: 28px;
+  }
+
+  .jumbotron p {
+    font-size: 19px;
+  }
+
+  .jumbotron {
+    padding-bottom: 60px;
+    padding-top: 80px;
+    opacity: 0.7;
+    margin-bottom: 0px;
+    color: #f5f5f5;
+    background: #464646; /* Old browsers */
+    background: -webkit-radial-gradient(circle, #464646 0%, #464646 0%); /* Chrome10+,Safari5.1+ */
+    background:      -o-radial-gradient(circle, #464646 0%, #464646 0%); /* Opera 12+ */
+    background:         radial-gradient(circle, #464646 0%, #464646 0%); /* W3C */  /* Firefox 3.6+ */
+    background:    -moz-radial-gradient(circle,	#464646 0%, #464646 0%);
+  }
+
+  .jumbotron a {
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+
+
+/* ---------------------------- horní lišta změna barvy telefon */
+  #tel span {
+    -webkit-transition: all 0s;  /* Saf3.2+, Chrome */
+    -moz-transition: all 0s;  /* FF4+ */
+    -ms-transition: all 0s;  /* IE10 */
+    -o-transition: all 0s;  /* Opera 10.5+ */
+    transition: all 0s;
+    background-color: inherit;
+    color: inherit;
+  }
+
+  #tel span:hover,
+  #tel span:focus,
+  #tel span:active {
+    color: #fff ;
+  }
+
+/* 3 sekce ---------------------------- 3 sekce -- služby */
+
+  #sluzby {
+    margin-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  #sluzby h4 {
+    font-size:22px;
+    color: #990000
+  }
+
+  
+
+/* ---------------------------- reference */
+  #reference {
+    padding-top: 20px;
+  }
+  #table {
+    padding-bottom: 20px;
+    padding-top:0px;
+  }
+
+  .pozadi_reference {
+    color: inherit;
+    background-color: rgba(255, 255, 0, 0.6);
+  }
+
+  #reference a {
+    text-decoration:none;
+    color: #000000; 
+  } 
+
+  #reference .kapitalky {
+    font-size: 15px ;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #990000;
+  }
+
+  #reference .kapitalky a {
+    color: #990000; 
+    text-decoration:none;
+  }
+
+/* ---------------------------- footer */
+  footer {
+    background-color: #222222;
+    border-color: #080808;
+    color: #999999;
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+  .modal-footer {
+    text-align: left;
+    margin: 0px;
+    }
+
+  #address {
+    font-size: 16px;
+    padding-top: 0px;
+  }
+
+
+  footer > .container-kontakt {
+    padding-top: 20px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .modal-footer {
+    border-top: 0px solid #E5E5E5;
+  }
+  #kontakt {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+
+  #kontakt h4 {
+    color:  #bf3030; 
+    font-size:22px;
+  }
+
+  #kontakt .kapitalky {
+    color:  #bf3030; 
+  }
+  .btn-info {
+    background-color:  #bf3030; 
+    border-color:  #bf3030;
+  }
+  .btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover {
+    background-color: #ff7373; 
+    border-color: #ff7373;
+  }
+  
+  .btn-default {
+    background-color: #222222;
+    border-color: #222222;
+  }
+  .btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover {
+    background-color: #696969;
+    border-color: #222222;
+    color: #ffffff;
+  }
+
+  #kontakt .dl-horizontal dt {
+    width:30%;
+  }
+  
+  #kontakt .dl-horizontal dd {
+    margin-left:32%;
+    font-size: 17px;
+  }
+
+  #map-canvas {
+    height:210px; 
+    width:100%;
+    border-color: #cd5d6c;
+    border-width: 2px;
+    position: relative;
+    left: -20px;
+  }
+  footer #kdemenajdete{
+    position: relative;
+    left: -20px;
+  }
+
+  label {
+    font-weight: normal;
+  }
+  .form-control {
+    padding: 3px 6px;
+  }
+  .form-group {
+    margin-bottom: 9px;
+  }
+
+  #kontakt_nas {
+    font-size: 14px;
+  }
+/* ---------------------------- paticka */
+  #paticka {
+    margin-top: 20px;
+  }
+
+  #paticka a {
+    color: #999999;
+    text-decoration:none;
+  }
+
+  #paticka a:hover {
+    color: #fff;
+  }
