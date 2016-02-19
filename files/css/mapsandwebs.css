@@ -20,8 +20,7 @@ img {
 }
 
 .logo_heslo {
-  width: 300px;
-  margin: 25px;
+  width: 400px;
   margin-left: 100px;
 }
 
@@ -31,16 +30,15 @@ img {
 
 h3 {
   font-family: 'ubuntu_titlingbold';
-  font-size: 26px;
+  font-size: 38px;
   color: #464646; 
   opacity: 0.7;
 }
 
 h4 {
   font-family: 'ubuntu_titlingbold';
-  font-size: 20px;
-  color: #464646; 
-  opacity: 0.7;
+  font-size: 30px;
+  color: #bf3030; 
 }
 
 h5 {
@@ -62,6 +60,31 @@ sup {
 .srdce span {
   padding-left: 40px;
 }
+
+  .ukazka {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 196.5px;
+  width: 340px;
+  text-indent: -9999px;
+  }
+  .ukazkaA {
+  background: url(geomorava.png);
+  }
+  .ukazkaB {
+  background: url(solanska.png);
+  }
+  .ukazkaC {
+  background: url(nepali.png);
+  margin-top: 20px;
+  }
+  .ukazkaD {
+  background: url(solanskysro.png);
+  }
+  .ukazka:hover, .ukazka:focus {
+  background-position: 0 -196.0px;
+  }
 
 table {
   width:100%;
@@ -149,6 +172,13 @@ table td:first-child {
     color: #990000
   }
 
+  #sluzby li {
+    font-size:22px;
+  }
+  #sluzby span {
+    font-size:18px;
+  }
+
   
 
 /* ---------------------------- reference */
@@ -162,7 +192,7 @@ table td:first-child {
 
   .pozadi_reference {
     color: inherit;
-    background-color: rgba(255, 255, 0, 0.6);
+    background-color: rgba(255, 255, 0, 0.5);
   }
 
   #reference a {
@@ -192,25 +222,22 @@ table td:first-child {
 
   label {
     font-size: 16px;
+    font-weight: normal;
   }
   .modal-footer {
-    text-align: left;
-    margin: 0px;
-    }
+    text-align: right;
+    border-top: 0px solid #E5E5E5;
+  }
 
   #address {
     font-size: 16px;
     padding-top: 0px;
   }
 
-
   footer > .container-kontakt {
     padding-top: 20px;
     padding-left:0px;
     padding-right:0px;
-  }
-  .modal-footer {
-    border-top: 0px solid #E5E5E5;
   }
   #kontakt {
     padding-top:0px;
@@ -266,9 +293,6 @@ table td:first-child {
     left: -20px;
   }
 
-  label {
-    font-weight: normal;
-  }
   .form-control {
     padding: 3px 6px;
   }
@@ -278,6 +302,8 @@ table td:first-child {
 
   #kontakt_nas {
     font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 /* ---------------------------- paticka */
   #paticka {
@@ -291,4 +317,9 @@ table td:first-child {
 
   #paticka a:hover {
     color: #fff;
+    }
+  
+  #paticka p {
+  margin:0 0 20px;
+  font-size: 16px;
   }
